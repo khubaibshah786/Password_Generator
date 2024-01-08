@@ -2,7 +2,9 @@
 [![HTML](https://img.shields.io/badge/HTML-5-orange?style=flat&logo=html5&logoColor=white)](https://www.w3.org/TR/html52/)
 [![CSS](https://img.shields.io/badge/CSS-3-blue?style=flat&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/specs.en.html)
 ![Bootstrap](https://img.shields.io/badge/javascript-5-orange?style=style=flat&logo=javascript&logoColor=orange)
-Hello there! 👋 Welcome to my Bootstrap-powered portfolio repository. This project showcases my skills, projects, and provides a glimpse into who I am. Below, you'll find information about the setup, implementation, and technologies used in creating this portfolio.
+
+
+Hello there! 👋 Welcome to my Password Generator repository. This project showcases my skills, projects, and provides a glimpse into who I am. Below, you'll find information about the setup, implementation, and technologies used in creating this portfolio.
 
 # Description 
 
