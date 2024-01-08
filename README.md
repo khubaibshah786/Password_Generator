@@ -1,79 +1,62 @@
-# Module 5 Challenge: Password Generator
+# Bootstrap Portfolio
+[![HTML](https://img.shields.io/badge/HTML-5-orange?style=flat&logo=html5&logoColor=white)](https://www.w3.org/TR/html52/)
+[![CSS](https://img.shields.io/badge/CSS-3-blue?style=flat&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/specs.en.html)
+![Bootstrap](https://img.shields.io/badge/javascript-5-orange?style=style=flat&logo=javascript&logoColor=orange)
+Hello there! 👋 Welcome to my Bootstrap-powered portfolio repository. This project showcases my skills, projects, and provides a glimpse into who I am. Below, you'll find information about the setup, implementation, and technologies used in creating this portfolio.
 
-## Overview
+# Description 
 
-This week’s challenge requires you to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
-
-The password can include special characters. If you’re unfamiliar with these, see this [list of Password Special Characters from the OWASP Foundation](https://www.owasp.org/index.php/Password_special_characters).
-
-## Instructions
-
-The following image shows the web application's appearance and functionality:
-
-![password generator demo](./assets/05-javascript-challenge-demo.png)
+This web-based Password Generator application allows users to create strong and secure passwords tailored to their specific criteria. The application provides a clean and user-friendly interface that dynamically updates as users select their preferences for password length and character types.
 
 
-* Generate a password when the button is clicked
-  * Present a series of prompts for password criteria
-    * Length of password
-      * At least 8 characters but no more than 128.
-    * Character types
-      * Lowercase
-      * Uppercase
-      * Numeric
-      * Special characters ($@%&*, etc)
-  * Code should validate for each input and at least one character type should be selected
-  * Once prompts are answered then the password should be generated and displayed in an alert or written to the page
+## User Acceptance Criteria
+### Features:
+1. Password Length:
 
-## Grading Requirements
+ - Users can choose a password length ranging from 8 to 128 characters.
+2. Character Types:
 
-This challenge is graded based on the following criteria: 
+- Users can select from various character types to be included in the password:
+- Lowercase letters
+- Uppercase letters
+- Numeric digits
+- Special characters (e.g., @, %, $)
+3. Validation:
 
-### Technical Acceptance Criteria: 40%
+- The application ensures that the user's selections meet the necessary criteria, prompting them to correct any invalid inputs.
+Random Password Generation:
 
-* Satisfies all of the above acceptance criteria plus the following:
+- The application generates a random password based on the user's preferences.
+Responsive Design:
 
-  * The challenge should not produce any errors in the console when you inspect it using Chrome DevTools.
+- The interface adapts to multiple screen sizes, providing a seamless experience across devices.
 
-### Deployment: 32%
+## How to Use:
+1. Open the live demo or download the project and open index.html in a web browser.
 
-* Application deployed at live URL.
+2. Click the "Generate Password" button.
 
-* Application loads with no errors.
+3. Follow the prompts to select the desired password length and character types.
 
-* Application GitHub URL submitted.
+4. View the generated password in the designated area.
 
-* GitHub repository that contains application code.
+### 5. Deploy to GitHub Pages:
+After completing my Password Generato, I deployed it to GitHub Pages for public access.
 
-### Application Quality: 15%
+### Technologies Used
+- HTML
+- CSS
+- JavaScript
 
-* Application user experience is intuitive and easy to navigate.
+## Screenshots
 
-* Application user interface style is clean and polished.
+ ![alt text](./assets/Screenshot%202024-01-08%20231735.png)
+ ![alt text](./assets/Screenshot%202024-01-08%20231830.png)
+ ![alt text](./assets/Screenshot%202024-01-08%20231849.png)
+ ![alt text](./assets/Screenshot%202024-01-08%20231914.png)
+ ![alt text](./assets/Screenshot%202024-01-08%20231936.png)
+ ![alt text](./assets/Screenshot%202024-01-08%20231959.png)
 
-* Application resembles the mock-up functionality provided in the challenge instructions.
+ ## Deployed application
 
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+ - Click here [Live Site](https://khubaibshah786.github.io/Password_Generator/).
