@@ -98,6 +98,12 @@ if (isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128) {
   alert('Invalid password length. Please enter a number between 8 and 128.');
   return null;
 }
+// Validate that at least one character type is selected
+if (!includeLowercase && !includeUppercase && !includeNumeric && !includeSpecial) {
+  alert('At least one character type must be selected.');
+  return null;
+}
+
 
 }
 
