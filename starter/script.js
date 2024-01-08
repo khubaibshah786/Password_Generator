@@ -103,7 +103,16 @@ if (!includeLowercase && !includeUppercase && !includeNumeric && !includeSpecial
   alert('At least one character type must be selected.');
   return null;
 }
+// Object to store user choices
+var passwordOptions = {
+  length: passwordLength,
+  includeLowercase: includeLowercase,
+  includeUppercase: includeUppercase,
+  includeNumeric: includeNumeric,
+  includeSpecial: includeSpecial
+};
 
+return passwordOptions;
 
 }
 
