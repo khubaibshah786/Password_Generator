@@ -124,7 +124,51 @@ function getRandom(arr) {
 
 // Function to generate password with user input
 function generatePassword() {
+  var options = getPasswordOptions();
 
+  if (!options) {
+    return ''; // Return an empty string if user input is invalid
+  }
+
+  var allChars = [];
+  var result = [];
+
+  // Include lowercase characters if chosen by the user
+  if (options.includeLowercase) {
+    allChars = allChars.concat(lowerCasedCharacters);
+    result.push(getRandom(lowerCasedCharacters));
+  }
+
+  // Include uppercase characters if chosen by the user
+  if (options.includeUppercase) {
+    allChars = allChars.concat(upperCasedCharacters);
+    result.push(getRandom(upperCasedCharacters));
+  }
+
+  // Include numeric characters if chosen by the user
+  if (options.includeNumeric) {
+    allChars = allChars.concat(numericCharacters);
+    result.push(getRandom(numericCharacters));
+  }
+
+  // Include special characters if chosen by the user
+  if (options.includeSpecial) {
+    allChars = allChars.concat(specialCharacters);
+    result.push(getRandom(specialCharacters));
+  }
+
+  // Fill the rest of the password with random characters
+  for (var i = result.length; i < options.length; i++) {
+    result.push(getRandom(allChars));
+  }
+
+  // Shuffle the result array to randomize the order of characters
+  result = result.sort(function () {
+    return 0.5 - Math.random();
+  });
+
+  // Convert the result array to a string and return
+  return result.join('');
 }
 
 // Get references to the #generate element
